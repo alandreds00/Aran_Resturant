@@ -338,18 +338,14 @@ const IMG_B64 = {
 function getImg(id, fallback){ return IMG_B64[id] || fallback; }
 
 const ITEMS=[
-  {id:1,cat:'pizza',ku:'پیتزا مارگریتا',ar:'بيتزا مارغريتا',en:'Margherita Pizza',
-   img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80',
-   sizes:[{ku:'گەورە',ar:'كبيرة',en:'Large',p:7000},{ku:'وەسەت',ar:'وسط',en:'Medium',p:5000},{ku:'بچووک',ar:'صغيرة',en:'Small',p:3000}]},
+  
   {id:2,cat:'pizza',ku:'پیتزا مریشک',ar:'بيتزا دجاج',en:'Chicken Pizza',
    img:'https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&q=80',
    sizes:[{ku:'گەورە',ar:'كبيرة',en:'Large',p:7000},{ku:'وەسەت',ar:'وسط',en:'Medium',p:5000},{ku:'بچووک',ar:'صغيرة',en:'Small',p:3000}]},
   {id:3,cat:'pizza',ku:'پیتزا گۆشت',ar:'بيتزا لحم',en:'Beef Pizza',
    img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80',
    sizes:[{ku:'گەورە',ar:'كبيرة',en:'Large',p:7000},{ku:'وەسەت',ar:'وسط',en:'Medium',p:5000},{ku:'بچووک',ar:'صغيرة',en:'Small',p:3000}]},
-  {id:4,cat:'pizza',ku:'پیتزا پێپەرۆنی',ar:'بيتزا بيبروني',en:'Pepperoni Pizza',
-   img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80',
-   sizes:[{ku:'گەورە',ar:'كبيرة',en:'Large',p:7000},{ku:'وەسەت',ar:'وسط',en:'Medium',p:5000},{ku:'بچووک',ar:'صغيرة',en:'Small',p:3000}]},
+  
   {id:5,cat:'pizza',ku:'پیتزای میکس گۆشت و مریشک',ar:'بيتزا ميكس',en:'Mix Pizza',
    img:'https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?w=600&q=80',
    sizes:[{ku:'گەورە',ar:'كبيرة',en:'Large',p:7000},{ku:'وەسەت',ar:'وسط',en:'Medium',p:5000},{ku:'بچووک',ar:'صغيرة',en:'Small',p:3000}]},
@@ -420,7 +416,7 @@ const ITEMS=[
    img:'https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?w=600&q=80',price:500},
   {id:34,cat:'drinks',ku:'سێڤن ئەپ',ar:'سفن اب',en:'7UP',
    img:'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=600&q=80',price:500},
-  {id:35,cat:'drinks',ku:'دۆی زووم',ar:'دو زووم',en:'Do Zoom',
+  {id:35,cat:'drinks',ku:'دۆ ',ar:'دو ',en:'Dough',
    img:'https://images.unsplash.com/photo-1613478223719-2ab802602423?w=600&q=80',price:750},
 ];
 
@@ -428,10 +424,7 @@ const CATS={
   pizza: {ku:'پیتزا',        ar:'بيتزا',      en:'Pizza',         icon:'🍕'},
   burger:{ku:'بەرگر',        ar:'برغر',        en:'Burger',        icon:'🍔'},
   gas:   {ku:'گەس و شاورمە', ar:'قص وشاورما', en:'Gas & Shawarma',icon:'🌯'},
-  doner: {ku:'دۆنەر',        ar:'دونر',        en:'Doner',         icon:'🥙'},
-  rizo:  {ku:'ڕیزۆ',         ar:'ريزو',        en:'Rezo',       icon:'🍚'},
   laem:  {ku:'لەحم',         ar:'لعم',         en:'Lahm',          icon:'🫓'},
-  spag:  {ku:'سپاگێتی',      ar:'سباغيتي',     en:'Spaghetti',     icon:'🍝'},
   mqab:  {ku:'مقەبیلات',     ar:'مقبلات',      en:'Appetizers',    icon:'🥗'},
   drinks:{ku:'خواردنەوە',    ar:'مشروبات',     en:'Drinks',        icon:'🥤'},
 };
